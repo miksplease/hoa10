@@ -1,0 +1,53 @@
+p{
+    font-size:medium;
+    font-family: Arial;
+    color: white;
+    text-align:center;
+}
+body{
+    background-image: url(img_visual/black3.jpg);
+    background-size: 50%;
+}
+h1{
+    font-family: 'Times New Roman';
+    color: white;
+    text-align: center;
+    letter-spacing: 5px;
+    line-height: 30px;
+    animation: changecolor 3s infinite;
+    animation-duration: 2s;
+}
+@keyframes changecolor {
+    from{
+        color: white;
+    }
+    to{
+        color:  blue;
+    }
+}
+h3{
+    font-family: 'Times New Roman';
+    color: yellow;
+    text-align: center;
+    letter-spacing: 6px;
+    line-height: 30px;
+}
+div{
+    text-align: center;
+}
+
+.subtext{
+    color: white;
+    margin-top: 10px;
+}
+.contact-info{
+    color: white;
+    font-style: italic;
+    margin-top: 60px;
+}
+.pic{
+    text-align: center;
+}
+p, h1, h3{
+    text-align: center;
+}
